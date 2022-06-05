@@ -4,15 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build index.html --no-minify",
+    "dev": "lite-server --baseDir='dist'"
   },
   "keywords": [],
-  "author": "",
+  "author": "napoler",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.1",
-    "multer": "^1.4.4",
+    "dat.gui": "^0.7.9",
     "spinkit": "^2.0.1",
-    "stats.js": "^0.17.0"
+    "three": "^0.141.0"
   }
+
 }
