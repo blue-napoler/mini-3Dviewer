@@ -1,7 +1,3 @@
-html,body {
-    font-family: 'Raleway', sans-serif;
-}
-
 #appCanvas{
     background-image: 
     radial-gradient(#ffffff, #888888);
@@ -50,6 +46,3 @@ label {
   transform: translateY(-50%) translateX(-50%); 
 }
 
-
-
-/*# sourceMappingURL=/css.b340807a.css.map */
